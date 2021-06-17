@@ -1,0 +1,219 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+.company_logo {
+  cursor: pointer;
+  position: relative;
+  margin-top: 8%;
+  margin-bottom: 4%;
+  margin-left: 11%;
+  height: 40px;
+}
+.main-div {
+  background: linear-gradient(180deg, #e4b91c14, #100f01),
+    url('components/images/background.jpg');
+  background-size: cover;
+}
+
+.For_business {
+  align-items: center;
+  background: transparent;
+  border-radius: 100px;
+  border: none;
+  padding: 0px 1.5rem 4px;
+  font-size: 1.08rem;
+  height: 52px;
+}
+
+.Login {
+  align-items: center;
+  background: transparent;
+  border-radius: 100px;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 0px 1.5rem 4px;
+  font-size: 1.08rem;
+  height: 52px;
+}
+
+.try_calm_for_free {
+  align-items: center;
+  background: transparent;
+  border-radius: 30px;
+  padding: 0px 1.5rem 4px;
+  font-size: 1.425vw;
+  height: 3.5rem;
+  border: 2px solid rgb(255, 255, 255);
+  font-weight: 600;
+  margin-left: 2%;
+}
+.head1 {
+  font-size: 50px;
+  color: white;
+}
+.head2 {
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 65%;
+}
+.head3 {
+  color: white;
+  margin-bottom: 2%;
+  font-weight: 600;
+}
+
+.improve {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0px;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(85, 85, 85);
+  border-radius: 100px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0px 20px;
+  color: rgb(56, 56, 56);
+  font-weight: 500;
+  margin-bottom: 8px;
+  width: 38%;
+  font-size: 1.125rem;
+  height: 8vh;
+}
+.Collapsible__contentOuter {
+  height: auto;
+  -webkit-transition: none;
+  -ms-transition: none;
+  transition: none;
+  overflow: hidden;
+}
+
+.containner-fluid {
+  position: fixed;
+  width: 100%;
+}
+.footer-details {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#navbarNav {
+  margin: -6.5% 0 1% 58%;
+}
+#navbarNav :hover {
+  background-color: lightgrey;
+}
+#container_fluiid {
+  position: fixed;
+  transition: background-color 0.8s ease;
+}
+.collapse.navbar-collapse {
+  margin-top: -5%;
+}
+.inner-login {
+  margin-left: 11%;
+  margin-top: 8%;
+}
+
+.Footer {
+  margin-top: 10%;
+  height: 45vh;
+  background-color: gray;
+  padding-top: 3%;
+  padding-left: 11%;
+  font-size: medium;
+  height: 58vh;
+}
+
+.Company-details,
+.Company-details a {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+  row-gap: 0.4rem;
+  font-size: 15px;
+}
+.Company-details .Offers-details .Help-details :hover {
+  color: lightgrey;
+}
+.Offers-details,
+.Offers-details a {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+  row-gap: 0.4rem;
+  font-size: 15px;
+}
+
+.Help-details,
+.Help-details a {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+  row-gap: 0.4rem;
+  font-size: 15px;
+}
+.copyright {
+  color: lightgrey;
+  text-align: center;
+  padding-top: 50px;
+}
+
+@media (min-width: 990px) and (max-width: 666 px) {
+  #navbarNav {
+    display: flex !important;
+    flex-basis: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+  .company_logo {
+    margin-top: 12%;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+
+  .improve {
+    width: 70%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+  .collapse.navbar-collapse {
+    margin-top: -27% !important;
+  }
+
+  .improve {
+    width: 70%;
+  }
+  .containner-fluid {
+    width: 48%;
+    height: 21%;
+  }
+  .company_logo {
+    height: 25%;
+    margin-top: 37%;
+  }
+}

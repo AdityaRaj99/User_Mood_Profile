@@ -1,0 +1,65 @@
+.graphh-container {
+  display: 'flex';
+  width: 55%;
+}
+.dates {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+}
+.dates button {
+  border: none;
+  background-color: white;
+  margin: 5%;
+}
+.select1,
+.select2 {
+  padding: 10px;
+  margin: 5% 0 0 20%;
+}
+.mood {
+  transform: rotate(-90deg);
+  margin-left: -36%;
+  margin-right: 58%;
+  font-size: 16px;
+}
+.admin ul li {
+  font-family: 'Mate SC', serif;
+  font-size: 20px;
+  cursor: pointer;
+  list-style-type: none;
+  background: lightblue;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 30%;
+}
+.admin {
+  font-weight: 700;
+  margin-top: 4%;
+  margin-left: 10%;
+}
+.admin ul li:hover {
+  -moz-box-shadow: 0 0 30px #d9cc55;
+  -webkit-box-shadow: 0 0 30px #d9cc55;
+  box-shadow: 0 0 30px #d9cc55;
+}
+.UserNo h1 {
+  /* background: url('../images/userbackground.jpg');
+  height: 100vh; */
+  margin: 0%;
+  /* padding-top: 300%; */
+  /* background-size: 169vh;
+  color: burlywood; */
+}
+.UserMood {
+  background: burlywood;
+  border-radius: 35px 0px 0px 2px;
+  margin-left: 72%;
+  padding: 1% 0% 1% 5%;
+}
+
+@media (max-width: 600px) {
+  .graphh-container {
+    width: 100%;
+  }
+}
