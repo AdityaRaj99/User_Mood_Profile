@@ -1,4 +1,4 @@
-## Firstly Clone of calm Landing page is made.
+## Firstly Clone of (calm.com) Landing page is made.
 
 ## Then on using Login button, first we get fields for users to access their dashboards with user login button.
 
