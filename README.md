@@ -1,6 +1,6 @@
 ## Firstly Clone of (calm.com) Landing page is made.
 
-![](Final_UI/image1.png)
+
 ![](Final_UI/image1.png)
 ## Then on using Login button, first we get fields for users to access their dashboards with user login button.
 
