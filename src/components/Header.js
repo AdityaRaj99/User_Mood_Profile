@@ -12,12 +12,12 @@ import 'bootstrap/dist/css/bootstrap.css';
 function Header() {
 
     const [showModal, setShowModal] = useState(false);
-  
     const [NavColor, setNavColor] = useState('rgb(0 0 0 / 0%)')
     const [NavColor2, setNavColor2] = useState('white')
+    const [showButton, setShowButton] = useState(false)
 
     const listenScrollEvent = () => {
-        if (window.scrollY > 400) {
+        if (window.scrollY > 100) {
             setNavColor('white')
             setNavColor2('black')
         } else {
@@ -30,6 +30,7 @@ function Header() {
         window.addEventListener('scroll', listenScrollEvent)
 
     }, [])
+
 
     return (<>
         <LoginModal show={showModal} setShowModal={setShowModal} />
@@ -51,11 +52,15 @@ function Header() {
                 <h4 className="head2">Our goal is to help you improve your health and happiness.</h4>
                 <h4 className="head3">What can we help with today?</h4>
 
-                <div className="improve"><Brightness2OutlinedIcon/>Improve sleep quality</div>
-                <div className="improve"><OpacityIcon/>Reduce stress or anxiety</div>
-                <div className="improve"><FlareIcon/>Improve focus</div>
-                <div className="improve"><EcoOutlinedIcon/>Self-improvement</div>
-                <div className="improve"><Brightness5OutlinedIcon/>Something else</div>
+                <div onClick={()=>setShowButton(!showButton)} className="improve"><Brightness2OutlinedIcon/>Improve sleep quality</div>
+                <div onClick={()=>setShowButton(!showButton)} className="improve"><OpacityIcon/>Reduce stress or anxiety</div>
+                <div onClick={()=>setShowButton(!showButton)} className="improve"><FlareIcon/>Improve focus</div>
+                <div onClick={()=>setShowButton(!showButton)} className="improve"><EcoOutlinedIcon/>Self-improvement</div>
+                <div onClick={()=>setShowButton(!showButton)} className="improve"><Brightness5OutlinedIcon/>Something else</div>
+                
+                <div >
+                    {showButton?<div className="improve_continue">Continue</div>:null}
+                    </div>
             </div>
         </div>
         </>

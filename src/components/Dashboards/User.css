@@ -9,8 +9,16 @@
 }
 .dates button {
   border: none;
-  background-color: white;
-  margin: 5%;
+  background-color: lightgreen;
+  padding: 13px;
+  margin-top: 4%;
+  border-radius: 21px;
+  text-decoration: underline;
+  margin-left: 8%;
+}
+.dates :hover {
+  -webkit-box-shadow: 0 0 30px #d9cc55 !important;
+  box-shadow: 0 0 30px #d9cc55 !important;
 }
 .select1,
 .select2 {
@@ -28,9 +36,10 @@
   font-size: 20px;
   cursor: pointer;
   list-style-type: none;
-  background: lightblue;
+  background: lightgreen;
   padding: 5px;
   border-radius: 10px;
+  text-decoration: underline;
   margin-bottom: 30%;
 }
 .admin {
@@ -44,12 +53,7 @@
   box-shadow: 0 0 30px #d9cc55;
 }
 .UserNo h1 {
-  /* background: url('../images/userbackground.jpg');
-  height: 100vh; */
   margin: 0%;
-  /* padding-top: 300%; */
-  /* background-size: 169vh;
-  color: burlywood; */
 }
 .UserMood {
   background: burlywood;

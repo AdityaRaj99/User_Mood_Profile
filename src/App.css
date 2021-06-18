@@ -85,6 +85,20 @@
   font-size: 1.125rem;
   height: 8vh;
 }
+
+.improve_continue {
+  align-items: center;
+  background: rgb(255, 255, 255);
+  border-radius: 100px;
+  cursor: pointer;
+  display: flex;
+  padding: 0px 20px;
+  width: 38%;
+  font-size: 1.125rem;
+  margin-top: 3%;
+  height: 8vh;
+  justify-content: center;
+}
 .Collapsible__contentOuter {
   height: auto;
   -webkit-transition: none;
@@ -194,6 +208,9 @@
   .improve {
     width: 70%;
   }
+  .improve_continue {
+    width: 70%;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -206,6 +223,9 @@
   }
 
   .improve {
+    width: 70%;
+  }
+  .improve_continue {
     width: 70%;
   }
   .containner-fluid {
