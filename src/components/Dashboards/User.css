@@ -9,7 +9,7 @@
 }
 .dates button {
   border: none;
-  background-color: lightgreen;
+  background-color: #90e3ee;
   padding: 13px;
   margin-top: 4%;
   border-radius: 21px;
@@ -36,7 +36,7 @@
   font-size: 20px;
   cursor: pointer;
   list-style-type: none;
-  background: lightgreen;
+  background-color: #90e3ee;
   padding: 5px;
   border-radius: 10px;
   text-decoration: underline;
